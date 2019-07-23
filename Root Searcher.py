@@ -20,7 +20,8 @@ def f(x, co):
     return result
 
 
-accuracy = 1 * 10**-10
+accuracy = 10**-10  
+# a point is considered a root if the value of the function at that point is less than this value
 
 d_msg = "Please enter the degree of the polynomial (must be >= 2): "
 
