@@ -11,7 +11,7 @@ def get_num(message):
 
 def f(x, co):
     """Evaluates a polynomial function with known coefficients for a given
-    value of x"""
+    value of x."""
     result = 0
 
     for a, b in enumerate(reversed(co)):
