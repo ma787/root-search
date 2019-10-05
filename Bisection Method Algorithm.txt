@@ -1,0 +1,12 @@
+1.	Ask for the degree and the coefficients of the polynomial.
+2.	Ask for an interval to search for the roots.
+3.	Check if the sign changes in the interval. If it does, go to step 7.
+4.	If it doesn’t, inform the user that there are no roots/even number of roots in the interval.
+5.	Ask the user if they want to try again with a different interval. If they do, go to step 2.
+6.	Stop.
+7.	Find the midpoint of the interval.
+8.	Find the value of the function at the bounds and the midpoint.
+9.	If the value of the function is smaller the degree of accuracy, return the midpoint as the root.
+10.	Stop.
+11.	If the value is the same sign as value at the upper bound, set the midpoint as the upper bound and go to step 7.
+12.	If the value is the same sign as the value at the lower bound, set the midpoint as the lower bound and go to step 7.

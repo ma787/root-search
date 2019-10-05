@@ -1,0 +1,9 @@
+1.  Ask for the degree and the coefficients of the polynomial.
+2.  Ask for an initial value of x for the search.
+3.  Evaluate f(x) by multiplying each coefficient by x^n, where x is the value and n is the corresponding power, and adding them up.
+4.  If f(x) is smaller than the degree of accuracy, output x and stop.
+5.  Multiply the coefficient for each x^n term by n (apart from x^0, which is not part of the new list.).
+6.  Associate each coefficient with a power 1 less than n.
+7.  Evaluate f'(x) in the same way as in (3) (i.e. sum of coefficient*x^n for every x^n term).
+8.  Work out the new value of x by evaluating x - (f(x)/f'(x)).
+9.  Go back to (3), using this new value of x.
